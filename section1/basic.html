@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    
+    <style>
+    body{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYf6j4-kgLd8uRdFiVY5xvvhQnUvb4BbxQ4sP21NiaKQ&s");
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        
+
+    }
+    .mycard{
+        width:25%;
+        height:50%;
+        background: linear-gradient(45deg,white,black);
+        padding: 30px;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        background: linen linear-gradient(90);
+        border-radius: 5px;
+    }
+    .btn{
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        width: 70px;
+        height: 25px;
+    }
+    .btn:hover{
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="mycard">
+        <h2 style="color:red;font-family:italic;">Member login</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCqAUQDQz7afZ5V2xArf6beHkPunRdWy1FQmymhnnPag&s" style="height: 50px; " ><br>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" placeholder="email" style="width:100%"><br><br>
+            <label for ="password">Password</label>
+            <input type="Password" placeholder="password"style="width:100%"><br><br>
+
+            <button class="btn" margin-top: 20px;>Login</button>
+    
+        </form>
+          
+        
+    </div>
+</body>
+</html>
