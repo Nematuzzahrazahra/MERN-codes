@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        header{
+            margin: 25px;
+        }
+        .zara{
+            width: 65%;
+            text-align: center;
+            padding-top: 75px;
+            padding-left: 15%;
+        }
+        .yara{
+            width: 65%;
+            text-align: center;
+            padding-left: 15%;
+        }
+       .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        border-color: rgb(224, 25, 125);
+       }
+       .card{
+        box-shadow: 5px;
+        width: 15%;
+        border-color: black ;
+       }
+       .head-title{
+        text-align: center;
+        padding-top: 35px;
+       }
+       .grid-container{
+            display: grid;
+            grid-template-columns: 400px 400px;
+            grid-template-rows: 220px 220px;  
+            gap: 35px;
+            align-items: center;
+            justify-content: space-evenly;
+           padding-top: 3%;
+           
+        }
+        .para{
+            padding: 5px;
+            text-align: center;
+        }
+        .head{
+            font-style: bold;
+            text-align: center;
+        }
+        .clr{
+            align-items: center;
+            background-color: rgb(238, 151, 187);
+            padding-top: 7%;
+            border-radius: 10px;
+
+        }
+        .card{
+            box-shadow: 5px;
+            border: palevioletred;
+        }
+       .cntr{
+        text-align: center;
+        margin-top: 20%;
+       }
+        .box-card{
+            display: grid;
+            grid-template-rows: 150px 150px 150px;
+            grid-template-columns: 200px 200px 200px;
+            gap: 30%;
+            align-items: center;
+            margin: 20%;
+            margin-top: 10%;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 shadow">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+      <img class="w-25" src="https://logos-world.net/wp-content/uploads/2020/08/Bosch-Logo-2018-present.jpg">
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <button type="button" class="btn btn-success">Get Started</button>
+        </div>
+      
+
+    </header>
+    <!-- main -->
+    <div class="p-3 mb-2 bg-secondry text-black">
+    <div class="container-fluid vh-100  ">
+        <div class="row ">
+            <div class="col-md-6 bg-pink ">
+                <h1 class="zara">Let's Grow Your Brand <br>To The Next Level</h1>
+                <p class="yara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laboriosam voluptate neque ex eveniet assumenda, vitae placeat commodi eaque vero?</p>
+                <button class="btn  btn-success  d-block mx-auto">See Our Work</button>
+            </div>
+            <div class="col-md-6">
+                <img class="w-100" src="https://www.shutterstock.com/image-vector/two-business-guy-talking-discuss-260nw-1024735585.jpg">
+            </div>
+        </div>
+    </div>
+    <!-- card -->
+    
+    <div class="container">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIqtPukZBKVhwjedbio4FZOqQosMHtDtdJpRuSv4aa1A&s">
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxiBdYoEODhUNVgg4WewURf_lmVhZj_lRSj10FFEy0Jg&s">
+        </div>
+        <div class="card">
+            <img class="w-75" src="https://footballmanagergraphics.com/uploads/monthly_2023_07/psg.png.f94bf74794bdbd966d770503df84098a.png">
+        </div>
+        <div class="card">
+            <img class="w-75"src="https://i.pinimg.com/736x/ba/bc/88/babc8834726480671d13ce482015d279.jpg">
+        </div>
+        <div class="card">
+            <img class="w-75" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzg7pyua_YeQioyYKE0SV-VrCMdnGOs3DrocCRfl9iKQ&s">
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEtBrXodrA4gQVMbCqte9utVxUhZb5MtPTa11MuD3uRDgctAcd-zThNrmCaKRaAwSrSy0&usqp=CAU">
+        </div>
+    </div>
+    </div>
+    <div class="p-3 mb-2 text-black">
+    <div class="head-title">
+        <h1 class="heeading">Our Services</h1>
+        <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat<br>soluta dolorem corporis, architecto ipsa eius asperioresvn ivjiiewhfn kdpsvi8eudd<br> lwid8efn jdvhe jashw6dw jh877n mcd jdouen</p>
+    </div>
+
+    <!-- grid -->
+    
+    <div class="grid-container">
+        <div class="clr">
+            <div class="item-1">
+                <h3 class="head">Digital Marketing 360</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolore architecto, aperiam minima velit ex eaque expedita dignissimos labore. Blanditiis in, necessitatibus fugiat ullam autem qui nam fuga, architecto </p>
+            </div>
+        </div>
+        <div class="clr">
+            <div class="item-1">
+                <h3 class="head"> Digital Strategy & Planning</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolore architecto, aperiam minima velit ex eaque expedita dignissimos labore. Blanditiis in, necessitatibus fugiat ullam autem qui nam fuga, architecto </p>.
+            </div>
+        </div>
+        <div class="clr">
+            <div class="item-1">
+                <h3 class="head">Creative Design Solution</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolore architecto, aperiam minima velit ex eaque expedita dignissimos labore. Blanditiis in, necessitatibus fugiat ullam autem qui nam fuga, architecto </p>
+            </div>
+        </div>
+        <div class="clr">
+            <div class="item-1">
+                <h3 class="head"> Branding and Idendity</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolore architecto, aperiam minima velit ex eaque expedita dignissimos labore. Blanditiis in, necessitatibus fugiat ullam autem qui nam fuga, architecto</p>
+            </div>
+        </div>
+        <div class="clr">
+            <div class="item-1"> <h3 class="head"> Media Buying</h3>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolore architecto, aperiam minima velit ex eaque expedita dignissimos labore. Blanditiis in, necessitatibus fugiat ullam autem qui nam fuga, architecto </div>
+        </div>
+        <div class="clr"> <h3 class="head"> Web and App Development</h3>
+            <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolore architecto, aperiam minima velit ex eaque expedita dignissimos labore. Blanditiis in, necessitatibus fugiat ullam autem qui nam fuga, architecto
+            <div class="item-1">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="p-3 mb-2 bg-primary text-black">
+    <div class="info vh-99">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="mt-5" src="https://img.freepik.com/premium-vector/business-team-two-men-woman-working-project-together-vector-illustration_688351-319.jpg">
+            </div>
+            <div class="col-md-6">
+                <div class="cntr">
+                <h1 class="mb-5">About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sint error debitis laboriosam dolorum, ullam consequuntur nesciunt veniam possimus ratione.  Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit corporis porro suscipit inventore dolores pariatur nobis aspernatur id omnis doloremque!</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+ <div class="p-3 mb-2 bg-success text-black">
+ <div class="work vh-80">
+    <h1 class="head mt-5">Our Works</h1>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis animi nulla consectetur <br>necessitatibus, quibusdam repudiandae neque facilis tempore quia!</p>
+    <!-- grid-2 -->
+    
+    <div class="container-box">
+        <div class="box-card">
+        <div class="exmp1">
+            <img class="w-100" src="https://img.freepik.com/free-vector/social-media-manager-concept-illustration_114360-23821.jpg">
+            <p  class="bg-white">Social Media Graphics</p>
+        </div>
+        <div class="exmp2">
+            <img class="w-100"src="https://blog.hootsuite.com/wp-content/uploads/2022/07/social-media-graphics-01.png">
+            <p class="bg-white">Social Media Graphics</p>
+        </div>
+        <div class="exmp3">
+            <img class="w-100"src="https://img.freepik.com/premium-psd/cosmetics-beauty-products-social-media-facebook-instagram-post-banner-design_521579-190.jpg">
+            <p class="bg-white">Social Media Graphics</p>
+        </div>
+        <div class="exmp4">
+            <img class="w-100"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFKq1KlW6qPxpL9qDHaX0feVnBxUu0s205JAv0bKivQ&s">
+            <p class="bg-white">Social Media Graphics</p>
+        </div>
+        <div class="exmp5">
+            <img class="w-100" src="https://blog.hootsuite.com/wp-content/uploads/2022/07/social-media-graphics-01.png">
+            <p class="bg-white">Social Media Graphics</p>            
+           
+        </div>
+        <div class="exmp6">
+            <img class="w-100"src="https://www1.onpassive.com/blog/wp-content/uploads/2022/07/28183703/Social-media-marketing-specialists-768x768.png">
+            <p class="bg-white">Social Media Graphics</p>
+        </div>
+        </div>
+    </div>
+ </div>
+</div>
+</html>    

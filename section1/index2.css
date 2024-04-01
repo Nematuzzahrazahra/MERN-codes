@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: green;
+    height: 50px;
+
+}
+.navbar h1{
+    font-size: 25px;
+    padding: 0%
+}
+.active{
+    text-decoration: dotted;
+
+}
+.navbar .nav-links{
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    top: 0%;
+    right: 0%;
+    width: 20%;
+    padding: 1%;
+}

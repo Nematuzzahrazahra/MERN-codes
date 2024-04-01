@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://static.toiimg.com/thumb/msid-93339099,width-748,height-499,resizemode=4,imgsize-177934/.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15%;
+}
+.header-content h1{
+    font-size: 350%;
+    padding: 1px;
+}
+.line{
+    width: 600px;
+    height: 3px;
+    background: #dd143c;
+    margin: 10px auto;
+    border-radius: 10px;
+    margin-bottom: 3%;  
+}
+.header-content h2{
+    font-size: 300%;
+    color: rgb(26, 26, 208);
+    padding-top: 2%;
+}
+.ctn{
+    
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: #dd143c;
+    color: whitesmoke;
+    margin: 1%;
+    border: none;
+}
+.ctn:hover{
+    color: #dd143c;
+    background-color: whitesmoke;
+}
+/* navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 10px;
+    color: whitesmoke;
+    
+    box-shadow: rgb(161, 161, 234);
+}
+.navbar h3{
+    color: black;
+}
+ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+.active{
+    color:rgb(221 20 60);
+    text-decoration: underline;
+}
+
+.destination h2{
+    text-align: center;
+    margin-top:2%;
+    margin-bottom: 3%;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.pics{
+    background-color: whitesmoke;
+}
+.pics h2{
+    font-size: 45px;
+    color: blue;
+    text-align: center;
+}
+.pics p{
+    color: rgb(84, 84, 230);
+    padding: 2%;
+    font-size: 15px;
+    padding-top: 0%;
+}
+.feature-card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: aqua;
+}
+h3{
+    text-align: center;
+}
+p{
+    font-size: 15%;
+}
+h1{
+
+}
